@@ -1,0 +1,17 @@
+$font-size:20px;
+$button-background-color: green;
+$button-font-color:white;
+$text-font-color: red;
+
+.ms-button{
+  font-size: $font-size;
+  padding:7px 15px;
+  background-color:$button-background-color;
+  color: $button-font-color;
+  outline:none;
+}
+
+.ms-text {
+  color: $text-font-color;
+  font-weight: bold;
+}
